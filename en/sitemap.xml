@@ -184,6 +184,22 @@
   </url>
   
   <url>
+    <loc>https://gella-teszt.github.io/en/rolunk/turazas/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hu"
+                href="https://gella-teszt.github.io/rolunk/turazas/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gella-teszt.github.io/en/rolunk/turazas/"
+                />
+  </url>
+  
+  <url>
     <loc>https://gella-teszt.github.io/en/tags/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -195,6 +211,22 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://gella-teszt.github.io/en/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://gella-teszt.github.io/en/rolunk/balatonszolos/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hu"
+                href="https://gella-teszt.github.io/rolunk/balatonszolos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gella-teszt.github.io/en/rolunk/balatonszolos/"
                 />
   </url>
   
