@@ -68,6 +68,22 @@
   </url>
   
   <url>
+    <loc>https://gella-teszt.github.io/en/galeria/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hu"
+                href="https://gella-teszt.github.io/galeria/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gella-teszt.github.io/en/galeria/"
+                />
+  </url>
+  
+  <url>
     <loc>https://gella-teszt.github.io/en/contact/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
