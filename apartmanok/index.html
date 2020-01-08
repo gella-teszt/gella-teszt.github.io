@@ -47,6 +47,21 @@
 <meta name="twitter:title" content="Szobák"/>
 <meta name="twitter:description" content="The last theme you&#39;ll ever need. Maybe."/>
 
+    <script>
+      function showHide(idm) {
+        var hiddenElement = document.getElementById(idm);
+        if (hiddenElement.style.display !== "block") {
+          hiddenElement.style.display = "block";
+        } else {
+          hiddenElement.style.display = "none";
+        }
+      }
+    </script>
+    <style>
+      .hiddenElement {
+        display: none;
+      }
+    </style>
   </head>
 
   <body class="ma0 avenir bg-near-white">

@@ -59,6 +59,21 @@
 
    GPS coordinates:       N 46,983321°    E 17,802932°    "/>
 
+    <script>
+      function showHide(idm) {
+        var hiddenElement = document.getElementById(idm);
+        if (hiddenElement.style.display !== "block") {
+          hiddenElement.style.display = "block";
+        } else {
+          hiddenElement.style.display = "none";
+        }
+      }
+    </script>
+    <style>
+      .hiddenElement {
+        display: none;
+      }
+    </style>
   </head>
 
   <body class="ma0 avenir bg-near-white">

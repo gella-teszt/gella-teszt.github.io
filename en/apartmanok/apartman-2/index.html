@@ -43,7 +43,7 @@
 
 <meta itemprop="datePublished" content="2019-06-23T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2019-06-23T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="625">
+<meta itemprop="wordCount" content="626">
 
 
 
@@ -52,6 +52,21 @@
 <meta name="twitter:title" content="Saffron apartment"/>
 <meta name="twitter:description" content="2 rooms on the first floor, with a bathroom"/>
 
+    <script>
+      function showHide(idm) {
+        var hiddenElement = document.getElementById(idm);
+        if (hiddenElement.style.display !== "block") {
+          hiddenElement.style.display = "block";
+        } else {
+          hiddenElement.style.display = "none";
+        }
+      }
+    </script>
+    <style>
+      .hiddenElement {
+        display: none;
+      }
+    </style>
   </head>
 
   <body class="ma0 avenir bg-near-white">
@@ -285,6 +300,9 @@ kitchen has a wide selection of basic kitchenware. Please take care of our belon
 
 <h3 id="payments-and-refunds">Payments and refunds:</h3>
 
+<p><button onclick="showHide('erkezes')">Show/Hide</button>
+<div class="hiddenElement" id="erkezes"></p>
+
 <p>To secure your booking, you have to pay for the first part (usually 50%) within the first 5 days. You can transfer the money or use an OTP SZEP card. The remaining amount has to be paid on-site, we accept only cash and card. (on-site payment with SZEP card is not available at the moment, but we are working on it!).</p>
 
 <p>We only accept HUF and EUR as currency.</p>
@@ -296,6 +314,8 @@ kitchen has a wide selection of basic kitchenware. Please take care of our belon
 <p>The booking can be canceled for free 14 days before arrival. We will transfer the first part of the payment back.</p>
 
 <p>If you cancel it between 14 and 3 days, 50% of your whole payment will be refunded. However, if you chose to pay the whole fee at once, we will keep 60% of your payment, these can be used within a year. This amount will be subtracted from the total amount of your next stay. If you cancel within 3 days, or you do not show up, we will charge the whole amount as a penalty. On-site reduction of nights, cancellation or not showing up at all will result in charging your total as a penalty.</p>
+
+<p></div></p>
 
 <h3 id="arrival-and-departure">Arrival and departure:</h3>
 
